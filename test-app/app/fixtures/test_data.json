@@ -1,0 +1,77 @@
+[
+  {
+    "model": "app.category",
+    "pk": 1,
+    "fields": {
+      "name": "Электроника",
+      "slug": "electronics"
+    }
+  },
+  {
+    "model": "app.subcategory",
+    "pk": 1,
+    "fields": {
+      "name": "Смартфоны",
+      "slug": "smartphones",
+      "category": 1
+    }
+  },
+  {
+    "model": "app.product",
+    "pk": 1,
+    "fields": {
+      "name": "Iphone 15",
+      "slug": "iphone-15",
+      "price": "999.99",
+      "category": 1,
+      "subcategory": 1
+    }
+  },
+  {
+    "model": "app.product",
+    "pk": 2,
+    "fields": {
+      "name": "Oppo A77",
+      "slug": "oppo-a77",
+      "price": "599.99",
+      "category": 1,
+      "subcategory": 1
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "testuser",
+      "password": "complexandhashedpassword",
+      "email": "testuser@example.com"
+    }
+  },
+  {
+    "model": "app.cart",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "quantity": 2
+    }
+  },
+  {
+    "model": "app.cartitem",
+    "pk": 1,
+    "fields": {
+      "cart": 1,
+      "product": 1,
+      "quantity": 1
+    }
+  },
+
+  {
+    "model": "app.cartitem",
+    "pk": 1,
+    "fields": {
+      "cart": 1,
+      "product": 2,
+      "quantity": 1
+    }
+  }
+]

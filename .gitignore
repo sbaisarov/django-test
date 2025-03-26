@@ -1,0 +1,5 @@
+venv
+__pycache__
+test-app/db.sqlite3
+test-app/media
+test-app/app/migrations
