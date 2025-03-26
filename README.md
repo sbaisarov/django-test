@@ -13,5 +13,6 @@
 3) Перейдем в папку test-app и выполним миграции:
   `python manage.py makemigrations`
   `python manage.py migrate`
-4) Запустим автотесты `python manage.py test app`
-5) 
+4) Загрузим json `python manage.py loaddata test_data`
+5) Запустим автотесты `python manage.py test app`
+6) Создадим пользователя 
