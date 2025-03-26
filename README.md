@@ -12,7 +12,7 @@
 2) Установим необходимые пакеты `pip install -r requirements.txt`
 3) Перейдем в test-app `cd test-app`
 4) Запустим автотесты `python manage.py test app`
-5) Откроем админ панель [http://](http://127.0.0.1:8000/admin/)
+5) Откроем админ панель http://127.0.0.1:8000/admin/
    Логин: foo
    Пароль: bar
 
