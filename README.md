@@ -7,3 +7,11 @@
 - Автотесты
 - swagger
 
+### Как запустить
+1) Загрузим репозиторий `git clone https://github.com/sbaisarov/django-test.git`
+2) Установим необходимые пакеты `pip install -r requirements.txt`
+3) Перейдем в папку test-app и выполним миграции:
+  `python manage.py makemigrations`
+  `python manage.py migrate`
+4) Запустим автотесты `python manage.py test app`
+5) 
