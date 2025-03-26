@@ -1,4 +1,4 @@
-add from django.urls import path
+from django.urls import path
 from .views import CategoryListView, ProductListView, ProductDetailView, CartView
 from .views import AddToCartView, UpdateCartItemView, RemoveFromCartView, ClearCartView, CustomObtainTokenView
 from rest_framework import permissions
