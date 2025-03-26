@@ -10,9 +10,11 @@
 ### Как запустить
 1) Загрузим репозиторий `git clone https://github.com/sbaisarov/django-test.git`
 2) Установим необходимые пакеты `pip install -r requirements.txt`
-3) Перейдем в папку test-app и выполним миграции:
-  `python manage.py makemigrations`
-  `python manage.py migrate`
-4) Загрузим json `python manage.py loaddata test_data`
-5) Запустим автотесты `python manage.py test app`
-6) Создадим пользователя 
+3) Перейдем в test-app `cd test-app`
+4) Запустим автотесты `python manage.py test app`
+5) Откроем админ панель [http://](http://127.0.0.1:8000/admin/)
+   Логин: foo
+   Пароль: bar
+
+6) Откроем swagger http://127.0.0.1:8000/api/swagger/
+7) Для взаимодействия с корзиной запросим токен через POST запрос /api-token-auth (логин и пароль те же)
